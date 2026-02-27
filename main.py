@@ -2,7 +2,7 @@ from flask import Flask, request
 from google.cloud import datastore
 import datetime
 import uuid
-from typing import Optional, List, Dict, Any, Union
+from typing import Optional, List, Dict, Any
 
 app = Flask(__name__)
 client = datastore.Client()
