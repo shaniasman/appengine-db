@@ -49,3 +49,14 @@ In a stateless cloud environment like App Engine, standard in memory stacks (Pyt
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+3. Authenticate with Google Cloud:
+   ```bash
+   gcloud auth application-default login
+4. Set Project ID:
+   ```bash
+   gcloud config set project project-d39071f6-530a-45c2-885
+5. Run the application:
+   ```bash
+   python main.py
+   
+The app will be available at http://127.0.0.1:8080.
